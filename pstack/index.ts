@@ -1,5 +1,17 @@
 import { serve } from "bun";
 export { Database } from "./database";
+export { Store, createStore, shallowEqual } from "./store";
+export type {
+  LoadedStoreSnapshot,
+  StoreEquality,
+  StoreListener,
+  StoreOptions,
+  StorePersistence,
+  StoreSelector,
+  StoreSnapshot,
+  StoreStorage,
+  StoreUpdater,
+} from "./store";
 export type {
   DatabaseDialect,
   DatabaseOptions,
