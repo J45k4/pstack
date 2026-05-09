@@ -1,0 +1,28 @@
+{
+  "name": "pstack",
+  "module": "pstack/index.ts",
+  "type": "module",
+  "bin": {
+    "pstack": "./cli/index.ts"
+  },
+  "exports": {
+    ".": "./pstack/index.ts",
+    "./database": "./pstack/database.ts",
+    "./react": "./pstack/react.ts"
+  },
+  "scripts": {
+    "example:todo": "bun --hot examples/todo/server.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "peerDependencies": {
+    "react": "^19",
+    "typescript": "^5"
+  }
+}
