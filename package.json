@@ -8,6 +8,7 @@
   "exports": {
     ".": "./pstack/index.ts",
     "./database": "./pstack/database.ts",
+    "./event-bus": "./pstack/event-bus.ts",
     "./react": "./pstack/react.ts",
     "./store": "./pstack/store.ts"
   },
