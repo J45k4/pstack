@@ -1,4 +1,4 @@
-import { useApi, useForm } from "pstack/react"
+import { useApi, useForm } from "@puppycorp/pstack/react"
 import { api } from "./api"
 import "./index.css"
 

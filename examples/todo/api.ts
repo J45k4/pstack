@@ -1,4 +1,4 @@
-import type { MutationEndpoint, ParseResult, QueryEndpoint } from "pstack/react"
+import type { MutationEndpoint, ParseResult, QueryEndpoint } from "@puppycorp/pstack/react"
 
 export type TodoId = string & { readonly __brand: "TodoId" }
 
