@@ -6,6 +6,9 @@
   "bin": {
     "pstack": "./cli/index.ts"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./pstack/index.ts",
     "./database": "./pstack/database.ts",
